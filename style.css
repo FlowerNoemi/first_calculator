@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    background-image: url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+    background-attachment: fixed;
+    background-position: 65% 70%;
+
+}
+
+
+
+.container {
+    background-color: #646363;
+    width: 300px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    border: 1px solid black;
+
+}
+
+.cont1 {
+    padding: 0;
+    width: 280px;
+    margin-left: 10px;
+}
+
+.row .btn {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    background-color: black;
+    
+}
+
+.row .btn:hover {
+    background-color: #353535;
+}
+
+h1 { 
+    color: #fafafa;
+    text-shadow: 1px 1px 2px #131313;
+}
+
+
+#disPlayCalc {
+    background-color: #f3f1eccc;
+    width: 270px;
+    height: 50px;
+    padding: 0;
+    border-radius: 10px 10px  0 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid black;
+    border-bottom: none;
+    margin-left: 5px;
+    color: black;
+    text-shadow: 1px 1px 2px #a3a1a1;
+}
+
+#disPlayCalc2 {
+    background-color: #f3f1eccc;
+    width: 270px;
+    height: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid black;
+    border-top: none;
+    font-size: 24px;
+    text-align: right;
+    margin-left: 5px;
+    color: black;
+    text-shadow: 1px 1px 2px #a3a1a1;
+
+    
+
+}
+
+#RemoveBtn {
+    width: 130px;
+    
+}
